@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>New Style Barbearia — corte de precisão, barba e cuidado masculino</title>
+<meta name="description" content="Barbearia New Style: cortes de precisão, barba desenhada com toalha quente e planos mensais para você manter o visual impecável o mês inteiro. Agende seu horário.">
+<link rel="preload" href="images/scene.webp" as="image" type="image/webp" imagesrcset="images/scene-880.webp 880w, images/scene.webp 1650w" imagesizes="(max-width:760px) 112vw, 100vw" fetchpriority="high">
+<link rel="stylesheet" href="css/style.css?v=8">
+<script>
+/* nível de desempenho do aparelho (low / mid / high). Durante a abertura o FPS real é medido
+   e o nível pode cair (js/animations.js). Para testar: index.html?tier=low */
+(function(d,n){var t,q=/[?&]tier=(low|mid|high)/.exec(location.search);
+try{t=q?q[1]:sessionStorage.getItem('ns-tier')}catch(e){t=q&&q[1]}
+if(!t){var c=n.hardwareConcurrency||4,m=n.deviceMemory||4,s=n.connection&&n.connection.saveData,
+fine=window.matchMedia&&matchMedia('(hover:hover) and (pointer:fine)').matches;
+t='mid';if(s||c<=2||m<=2||(!fine&&c<=4&&m<3))t='low';else if(fine&&c>=8&&m>=8)t='high'}
+window.__tierForced=!!q;window.__saveData=!!(n.connection&&n.connection.saveData);window.__tier=t;d.classList.add('t-'+t)})(document.documentElement,navigator);
+/* fonte do título adiantada (só em servidor: abrindo o arquivo direto o navegador bloqueia) */
+if(/^https?:/.test(location.protocol)){var l=document.createElement('link');l.rel='preload';l.as='font';l.type='font/woff2';l.crossOrigin='anonymous';l.href='fonts/heros.woff2';document.head.appendChild(l)}
+/* esconde a primeira seção até a abertura começar; se os scripts falharem, mostra tudo */
+(function(d){if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;d.classList.add('pre');function off(){d.classList.remove('pre')}setTimeout(off,3500);addEventListener('load',function(){if(!window.gsap)off()})})(document.documentElement);
+</script>
+</head>
+<body>
+<header class="nb" id="nb">
+  <div class="nb-bar">
+    <a href="#home" class="nb-logo" aria-label="New Style — voltar ao início"><span class="nb-word">New Style</span></a>
+    <nav class="nb-nav" id="nb-menu" aria-label="Principal">
+      <ul class="nb-links">
+        <li><a href="#home" class="nb-link" aria-current="page"><span class="nb-n">01</span><span class="nb-t">Início</span><svg class="nb-arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M5.8 4.5h5.7v5.7"/></svg></a></li>
+        <li><a href="#features" class="nb-link"><span class="nb-n">02</span><span class="nb-t">Serviços</span><svg class="nb-arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M5.8 4.5h5.7v5.7"/></svg></a></li>
+        <li><a href="#pricing" class="nb-link"><span class="nb-n">03</span><span class="nb-t">Planos</span><svg class="nb-arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M5.8 4.5h5.7v5.7"/></svg></a></li>
+        <li><a href="#about" class="nb-link"><span class="nb-n">04</span><span class="nb-t">Sobre</span><svg class="nb-arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M5.8 4.5h5.7v5.7"/></svg></a></li>
+        <li><a href="#contact" class="nb-link"><span class="nb-n">05</span><span class="nb-t">Contato</span><svg class="nb-arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M5.8 4.5h5.7v5.7"/></svg></a></li>
+      </ul>
+      <span class="nb-ind" aria-hidden="true"></span>
+    </nav>
+    <a href="https://wa.me/5519996116688?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20New%20Style%20e%20quero%20agendar%20um%20hor%C3%A1rio." class="nb-cta" target="_blank" rel="noopener" aria-label="Agendar horário pelo WhatsApp"><svg class="wa" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.560 6.560 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg><span class="roll"><span class="roll-i" data-t="Agendar horário">Agendar horário</span></span></a>
+    <button class="nb-tog" type="button" aria-expanded="false" aria-controls="nb-menu" aria-label="Abrir menu"><span></span><span></span></button>
+  </div>
+</header>
+<div class="nb-scrim" aria-hidden="true"></div>
+
+<div class="root"><div class="page" id="home">
+
+
+<main>
+  <h1 class="sr">New Style — Barbearia</h1>
+  <div class="art"><div class="art-in">
+    <img class="scene" alt="" src="images/scene.webp" srcset="images/scene-880.webp 880w, images/scene.webp 1650w" sizes="(max-width:760px) 112vw, 100vw" width="1650" height="1538" fetchpriority="high" decoding="async">
+    <span class="hz"></span>
+    <svg class="s-title" viewBox="0 0 4660 1100" fill="#e4e3e5" aria-hidden="true"><path class="tl" d="M1000.6 791V52.2H911.5V656.2L525.4 52.2H423V791H512.2V192.1L894.2 791Z"/><path class="tl" d="M1504.9 549.8C1504.9 472.8 1498.8 424.2 1483.6 384.6C1449.1 297.5 1368.1 244.8 1268.7 244.8C1120.8 244.8 1025.5 354.2 1025.5 528.5C1025.5 702.8 1117.8 806.2 1266.7 806.2C1388.3 806.2 1472.4 737.3 1493.7 629.9H1408.6C1385.3 699.8 1337.7 728.2 1269.8 728.2C1181.6 728.2 1115.7 671.4 1113.7 549.8ZM1414.7 474.8C1414.7 474.8 1414.7 478.9 1413.7 480.9H1115.7C1122.8 386.7 1182.6 322.8 1267.7 322.8C1350.8 322.8 1414.7 391.7 1414.7 474.8Z"/><path class="tl" d="M2194.5 260H2099.2L1993.8 673.4L1889.4 260H1786.1L1684.7 673.4L1576.3 260H1483.1L1637.1 791H1732.4L1834.7 374.5L1942.1 791H2038.4Z"/><path class="tl" d="M2944.3 588.3C2944.3 497.1 2887.6 430.2 2787.2 402.9L2601.8 353.2C2512.6 329.9 2480.2 300.5 2480.2 243.8C2480.2 168.8 2546.1 113 2645.4 113C2762.9 113 2829.8 166.8 2829.8 263H2919C2919 118.1 2818.7 34 2648.4 34C2486.3 34 2385.9 123.2 2385.9 256.9C2385.9 347.1 2433.6 403.9 2530.9 429.2L2714.3 477.9C2807.5 502.2 2850.1 539.7 2850.1 597.4C2850.1 678.5 2789.3 726.1 2661.6 726.1C2521.7 726.1 2452.8 656.2 2452.8 550.8H2363.6C2363.6 725.1 2481.2 809.2 2655.5 809.2C2843 809.2 2944.3 720.1 2944.3 588.3Z"/><path class="tl" d="M3188.4 791V720.1C3177.3 723.1 3164.1 724.1 3147.9 724.1C3111.4 724.1 3101.2 714 3101.2 676.5V328.9H3188.4V260H3101.2V114.1H3017.1V260H2945.2V328.9H3017.1V714C3017.1 767.7 3053.6 798.1 3119.5 798.1C3139.8 798.1 3160 796.1 3188.4 791Z"/><path class="tl" d="M3678.4 260H3587.2L3440.3 673.4L3304.5 260H3214.3L3393.6 793L3361.2 877.1C3347 914.6 3329.8 928.8 3293.3 928.8C3281.2 928.8 3267 926.8 3248.7 922.7V998.7C3266 1007.9 3283.2 1011.9 3305.5 1011.9C3365.3 1011.9 3413.9 978.5 3442.3 902.5Z"/><path class="tl" d="M3788 791V52.2H3703.9V791Z"/><path class="tl" d="M4292.9 549.8C4292.9 472.8 4286.8 424.2 4271.6 384.6C4237.1 297.5 4156.1 244.8 4056.7 244.8C3908.8 244.8 3813.5 354.2 3813.5 528.5C3813.5 702.8 3905.8 806.2 4054.7 806.2C4176.3 806.2 4260.4 737.3 4281.7 629.9H4196.6C4173.3 699.8 4125.7 728.2 4057.8 728.2C3969.6 728.2 3903.7 671.4 3901.7 549.8ZM4202.7 474.8C4202.7 474.8 4202.7 478.9 4201.7 480.9H3903.7C3910.8 386.7 3970.6 322.8 4055.7 322.8C4138.8 322.8 4202.7 391.7 4202.7 474.8Z"/></svg>
+    <img class="chair" alt="Cadeira de barbeiro em couro preto" src="images/chair.webp" width="566" height="371" fetchpriority="high" decoding="async">
+  </div></div>
+
+  <div class="hero-text">
+    <p class="our"><span class="txt" id="our">Barbearia New Style</span></p>
+    <p class="para"><span class="txt" id="l1">Corte de precisão para quem</span> <span class="txt" id="l2">não aceita o comum.</span></p>
+  </div>
+
+  <div class="tags">
+    <a href="#" class="pill"><span class="frame pf p1-f"></span><span class="txt" id="p1-t">Técnica apurada</span></a>
+    <a href="#" class="pill"><span class="frame pf p2-f"></span><span class="txt" id="p2-t">Produtos premium</span></a>
+  </div>
+
+  <div class="actions">
+    <a href="https://wa.me/5519996116688?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20New%20Style%20e%20quero%20agendar%20um%20hor%C3%A1rio." class="read" target="_blank" rel="noopener" aria-label="Agendar agora pelo WhatsApp"><span class="frame read-f"></span><span class="txt" id="read-t"><svg class="wa" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.560 6.560 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>Agendar agora</span></a>
+    <a href="#" class="play"><span class="txt" id="play-t">Ver o ritual</span><img class="tri" src="images/icons/play.svg" alt=""></a>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><span class="frame cf c1-f"></span>
+      <svg class="s-300" viewBox="0 0 564 240" fill="#fff"><text x="530.5" y="202" text-anchor="end" font-family="Heros,Helvetica,Arial,sans-serif" font-size="232" letter-spacing="-8">300+</text></svg>
+      <p class="lb"><span class="txt" id="c1a">Clientes</span> <span class="txt" id="c1b">satisfeitos</span></p></div>
+    <div class="stat"><span class="frame cf c2-f"></span>
+      <svg class="s-98" viewBox="0 0 498 240" fill="#fff"><text x="453.2" y="196" text-anchor="end" font-family="Heros,Helvetica,Arial,sans-serif" font-size="205" letter-spacing="-2">98%</text></svg>
+      <p class="lb"><span class="txt" id="c2a">Taxa de</span> <span class="txt" id="c2b">retorno</span></p></div>
+  </div>
+
+  <section class="partners">
+    <h2><span class="txt ptl" id="ptl">MARCAS PARCEIRAS</span></h2>
+    <div class="logos">
+      <a href="#" class="partner"><img class="ico i-book" src="images/logos/bookstore.svg" alt=""><span class="txt" id="w-book">BookStore</span></a>
+      <a href="#" class="partner"><img class="ico i-zant" src="images/logos/zantic.svg" alt=""><span class="txt" id="w-zant">zantic</span></a>
+      <a href="#" class="partner"><img class="ico i-cron" src="images/logos/crona.svg" alt=""><span class="txt" id="w-cron">Crona</span></a>
+      <a href="#" class="partner"><img class="ico i-merc" src="images/logos/mercury.svg" alt=""><span class="txt" id="w-merc">Mercury</span></a>
+      <a href="#" class="partner"><img class="ico i-wepi" src="images/logos/wepir.svg" alt=""><span class="txt" id="w-wepi">Wepir</span></a>
+    </div>
+  </section>
+</main>
+</div>
+
+<section class="about-section" id="about" aria-labelledby="about-title">
+  <div class="about-heading">
+    <h2 id="about-title">SOBRE NÓS</h2>
+    <p>Tradição na técnica. Atitude no estilo.</p>
+  </div>
+  <div class="about-copy">
+    <p>Na New Style, cortar o cabelo é só o começo. Da recepção à toalha quente no acabamento, cada detalhe foi pensado para você sair daqui mais confiante do que entrou.</p>
+    <span class="about-divider" aria-hidden="true"></span>
+    <p>Unimos a técnica da barbearia clássica a um olhar moderno de estilo: atendimento individual, sem pressa e em um ambiente feito para você relaxar e ser bem cuidado.</p>
+  </div>
+  <div class="about-gallery">
+    <figure><img src="images/about/gallery-1.jpg" width="470" height="269" loading="lazy" decoding="async" alt="Ambiente sofisticado e acolhedor"></figure>
+    <figure><img src="images/about/gallery-2.jpg" width="459" height="269" loading="lazy" decoding="async" alt="Detalhes de um espaço contemporâneo"></figure>
+    <figure><img src="images/about/gallery-3.jpg" width="447" height="269" loading="lazy" decoding="async" alt="Design minimalista e acabamento refinado"></figure>
+  </div>
+</section>
+
+<section class="ns" id="features" aria-labelledby="ns-title">
+  <div class="ns-wrap">
+
+    <div class="ns-hero">
+      <div class="ns-intro">
+        <h2 id="ns-title">Cuidado moderno, feito<br>para elevar sua confiança</h2>
+        <p>Cortes precisos e rituais de cuidado que valorizam seu visual, respeitam o seu tempo e fazem o seu estilo ser notado onde você chegar.</p>
+        <a href="#" class="ns-pill">Conheça os serviços
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg>
+        </a>
+      </div>
+
+      <div class="ns-slant" role="group" aria-label="Galeria de fotos">
+        <figure class="ns-col"><img src="images/gallery/photo-1.jpg" width="440" height="1023" alt="Braço cromado de uma cadeira de barbeiro preta" loading="lazy" decoding="async"></figure>
+        <figure class="ns-col"><img src="images/gallery/photo-2.jpg" width="440" height="1023" alt="Encosto de couro com costura em losango de uma cadeira de barbeiro" loading="lazy" decoding="async"></figure>
+        <figure class="ns-col"><img src="images/gallery/photo-3.jpg" width="440" height="1023" alt="Assento costurado e apoio para os pés de uma cadeira de barbeiro" loading="lazy" decoding="async"></figure>
+        <figure class="ns-col"><img src="images/gallery/photo-4.jpg" width="440" height="1023" alt="Braço e base de uma cadeira de barbeiro" loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+
+    <ul class="ns-feats">
+      <li>
+        <h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M3 12h18M7.2 7.5h.1M11 7.5h2M7.2 16.5h.1M11 16.5h2"/></svg>Corte Clássico</h3>
+        <p>Técnicas atemporais e acabamento impecável, pensados para o seu tipo de cabelo e o seu rosto.</p>
+      </li>
+      <li>
+        <h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M3 12h18M7.2 7.5h.1M11 7.5h2M7.2 16.5h.1M11 16.5h2"/></svg>Barba Desenhada</h3>
+        <p>Modelagem detalhada com toalha quente para uma barba alinhada, limpa e marcante.</p>
+      </li>
+      <li>
+        <h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M3 12h18M7.2 7.5h.1M11 7.5h2M7.2 16.5h.1M11 16.5h2"/></svg>Tratamento Capilar</h3>
+        <p>Hidratação profunda e cuidado do couro cabeludo para fios fortes, saudáveis e com vida.</p>
+      </li>
+      <li>
+        <h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M3 12h18M7.2 7.5h.1M11 7.5h2M7.2 16.5h.1M11 16.5h2"/></svg>Cuidado Completo</h3>
+        <p>Rosto, cabelo e barba tratados com produtos premium, do primeiro ao último detalhe.</p>
+      </li>
+    </ul>
+
+    <div class="ns-head" id="pricing">
+      <h2>Escolha o plano ideal<br>para o seu estilo</h2>
+      <p>Visual impecável o mês inteiro, por um valor que cabe na sua rotina.</p>
+    </div>
+
+    <div class="ns-plans">
+      <article class="ns-plan">
+        <svg class="ns-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/><circle cx="12" cy="12" r="4"/><path d="M12 8v8M8 12h8"/></svg>
+        <h3>Essencial</h3>
+        <p class="ns-price">R$29</p>
+        <p class="ns-per">por mês, no plano anual</p>
+        <ul>
+          <li>2 cortes por mês</li>
+          <li>Agendamento online</li>
+          <li>Descontos exclusivos para assinantes</li>
+        </ul>
+        <a href="https://wa.me/5519996116688?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20New%20Style%20e%20tenho%20interesse%20no%20plano%20Essencial%20%28R%2429/m%C3%AAs%29.%20Pode%20me%20passar%20os%20detalhes%3F" class="ns-btn" target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.560 6.560 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>Quero este plano</a>
+      </article>
+
+      <article class="ns-plan is-pop">
+        <svg class="ns-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 8.5 4.75v9.5L12 21.5l-8.5-4.75v-9.5zM3.5 7.25 12 12l8.5-4.75M12 12v9.5"/></svg>
+        <span class="ns-badge">Mais escolhido</span>
+        <h3>Estilo</h3>
+        <p class="ns-price">R$85</p>
+        <p class="ns-per">por mês, no plano anual</p>
+        <ul>
+          <li>4 cortes por mês</li>
+          <li>Barba desenhada inclusa</li>
+          <li>Toalha quente em todo atendimento</li>
+          <li>Prioridade na agenda e lembretes</li>
+        </ul>
+        <a href="https://wa.me/5519996116688?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20New%20Style%20e%20tenho%20interesse%20no%20plano%20Estilo%20%28R%2485/m%C3%AAs%29.%20Pode%20me%20passar%20os%20detalhes%3F" class="ns-btn" target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.560 6.560 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>Quero este plano</a>
+      </article>
+
+      <article class="ns-plan">
+        <svg class="ns-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 8.5 4.75v9.5L12 21.5l-8.5-4.75v-9.5zM3.5 7.25 12 12l8.5-4.75M12 12v9.5"/></svg>
+        <h3>Premium</h3>
+        <p class="ns-price">R$120</p>
+        <p class="ns-per">por mês, no plano anual</p>
+        <ul>
+          <li>Cortes e barba ilimitados</li>
+          <li>Tratamento capilar todo mês</li>
+          <li>Horários 100% flexíveis</li>
+          <li>Barbeiro exclusivo para você</li>
+        </ul>
+        <a href="https://wa.me/5519996116688?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20New%20Style%20e%20tenho%20interesse%20no%20plano%20Premium%20%28R%24120/m%C3%AAs%29.%20Pode%20me%20passar%20os%20detalhes%3F" class="ns-btn" target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.560 6.560 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>Quero este plano</a>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<section class="xp" id="contact" aria-labelledby="xp-title">
+  <div class="xp-card">
+    <img class="xp-bg" src="images/xp-man.webp" srcset="images/xp-man-960.webp 960w, images/xp-man.webp 1672w" sizes="(max-width:1000px) 100vw, 76vw" width="1672" height="941" alt="" loading="lazy" decoding="async">
+    <div class="xp-in">
+      <p class="xp-eye"><span class="xp-play"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2v8l6.5-4z"/></svg></span>Veja na prática</p>
+      <h2 id="xp-title">Sinta a <em>diferença</em></h2>
+      <p class="xp-txt">Veja como nossos barbeiros entregam cortes precisos e acabamento de especialista, com o conforto e a praticidade que o homem moderno exige. Sua próxima melhor versão começa na cadeira.</p>
+      <div class="xp-acts">
+        <a href="https://wa.me/5519996116688?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20New%20Style%20e%20quero%20agendar%20um%20hor%C3%A1rio." class="xp-b1" target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.560 6.560 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>Agendar meu horário</a>
+        <a href="#" class="xp-b2">Assistir vídeo</a>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<script src="js/gsap.min.js" defer></script>
+<script src="js/ScrollTrigger.min.js" defer></script>
+<script src="js/lenis.min.js" defer></script>
+<script src="js/animations.js?v=9" defer></script>
+<script src="js/navbar.js?v=3" defer></script>
+</body>
+</html>
